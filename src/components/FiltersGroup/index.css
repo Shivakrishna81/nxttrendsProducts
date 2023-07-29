@@ -1,0 +1,39 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.search {
+  height: 30px;
+  width: 200px;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: rgb(158, 153, 153);
+  border-style: solid;
+}
+.category {
+  list-style: none;
+  color: rgb(44, 41, 41);
+}
+.chead {
+  font-size: 19px;
+}
+.rat {
+  display: flex;
+  justify-content: space-between;
+  width: 230px;
+  align-items: center;
+}
+.star_img {
+  width: 100px;
+  height: 35px;
+}
